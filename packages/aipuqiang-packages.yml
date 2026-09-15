@@ -1,0 +1,14 @@
+generated: '2026-09-14'
+method: searched
+source: >-
+  npm registry search (registry.npmjs.org/-/v1/search), PyPI (pypi.org/pypi/<name>/json) and
+  the GitHub user/org and repository search APIs, and the company website https://aptr.com.cn/
+package_count: 0
+note: >-
+  No first-party client library exists. Searches for "apactron", "aipuqiang" and "aptr" on
+  npm returned no packages belonging to this company, and PyPI returned 404 for each name.
+  aptr.com.cn links to no SDK, CLI, source repository or GitHub organization, and the company
+  has no public GitHub presence (GitHub user search for "apactron", "aipuqiang" and "aptr-cn"
+  each returned total_count 0). This is expected: Aipuqiang ships installed proton therapy
+  hardware, not a developer platform.
+packages: []

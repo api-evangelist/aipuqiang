@@ -1,0 +1,11 @@
+generated: '2026-09-14'
+method: searched
+source: https://aptr.com.cn/
+limit_count: 0
+note: >-
+  No rate limits are documented because no API is published. Aipuqiang serves no developer
+  documentation, no API reference and no machine-readable specification, so there is no
+  runtime limit, quota, window or response header to record. The site's single JSON route
+  (https://aptr.com.cn/api) is an undocumented backend endpoint for the corporate contact
+  form and returns no RateLimit-*, X-RateLimit-* or Retry-After headers.
+rate_limits: []

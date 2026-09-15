@@ -1,7 +1,18 @@
 aid: aipuqiang
 name: Aipuqiang
-description: 'Aipuqiang is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Aipuqiang is the transliterated name of Shanghai APACTRON Particle Equipment Co., Ltd.
+  (上海艾普强粒子设备有限公司), a Shanghai-based manufacturer of proton therapy systems for cancer
+  treatment. Founded in June 2011 and controlled by Shanghai Alliance Investment Co., Ltd.
+  under the Shanghai SASAC, the company was the industrialization partner for China's first
+  domestically developed proton therapy demonstration facility, which received NMPA innovative
+  medical device registration in September 2022 and entered clinical service at the Tumor
+  Proton Center of Ruijin Hospital in November 2023. Its product line covers the accelerator
+  system (injector, synchrotron and high-energy beam transport) together with 180-degree and
+  360-degree rotating-gantry and horizontal fixed-beam treatment rooms. Aipuqiang is a capital
+  medical-equipment manufacturer: it sells installed proton therapy systems to hospitals and
+  publishes no public API, developer portal, SDK or machine-readable specification.
+image: https://aptr.com.cn/web/Nimg/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/aipuqiang/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -10,8 +21,18 @@ x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-14'
 modified: '2026-09-14'
+position: Producing
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Proton Therapy
+- Radiation Oncology
+- Particle Accelerators
+- Medical Equipment
+- Oncology
+- Manufacturing
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +40,64 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aipuqiang-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/aipuqiang
+  url: https://aptr.com.cn/
+- type: About
+  url: https://aptr.com.cn/About
+- type: Solutions
+  url: https://aptr.com.cn/Product
+- type: Blog
+  url: https://aptr.com.cn/News
+- type: Contact
+  url: https://aptr.com.cn/Contact
+- type: Careers
+  url: https://aptr.com.cn/Job
+- type: CaseStudies
+  url: https://aptr.com.cn/Cases
+- type: x-KeyLaboratory
+  url: https://aptr.com.cn/Laboratory
+- type: LLMsTxt
+  url: llms/aipuqiang-llms.txt
+- type: Plans
+  url: plans/aipuqiang-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/aipuqiang-rate-limits.yml
+- type: Packages
+  url: packages/aipuqiang-packages.yml
+
+x-enrichment:
+  date: '2026-09-14'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Aipuqiang (Shanghai APACTRON Particle Equipment) manufactures installed proton therapy
+    accelerators for hospitals, so its product is a physical machine rather than software:
+    aptr.com.cn carries company, product, case-study, news, careers and laboratory sections
+    and no developer area at all, and every contract and discovery path probed on both
+    aptr.com.cn and www.aptr.com.cn returned 404.
+  evidence:
+  - url: https://aptr.com.cn/
+    status: 200
+  - url: https://aptr.com.cn/openapi.json
+    status: 404
+  - url: https://aptr.com.cn/swagger.json
+    status: 404
+  - url: https://aptr.com.cn/graphql
+    status: 404
+  - url: https://aptr.com.cn/llms.txt
+    status: 404
+  - url: https://aptr.com.cn/.well-known/agent-card.json
+    status: 404
+  - url: https://aptr.com.cn/.well-known/api-catalog
+    status: 404
+  - url: https://www.aptr.com.cn/.well-known/security.txt
+    status: 404
+  - url: https://aptr.com.cn/en/
+    status: 500
+  checked: '2026-09-14'

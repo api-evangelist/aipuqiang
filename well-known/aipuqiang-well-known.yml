@@ -1,0 +1,47 @@
+generated: '2026-09-14'
+method: probed
+source: >-
+  Live HTTPS probes of the five named /.well-known/ paths on every host this record knows.
+  Aipuqiang publishes no API, so the only hosts in scope are its corporate site
+  (aptr.com.cn and www.aptr.com.cn). There are no apis[].baseURL hosts, no OpenAPI
+  servers[] hosts, no docs/console host, and no authorization_servers to follow.
+note: >-
+  Every probed path returned HTTP 404 from the site's own branded 404 template
+  (271 bytes, an <img src="/web/Nimg/404.jpg"> page). No /.well-known/ document of any
+  kind is served. Per the pipeline contract no WellKnown or SecurityTxt pointer is wired
+  into apis.yml: this file records a measured absence, not a published surface.
+hosts:
+- host: aptr.com.cn
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+- host: www.aptr.com.cn
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null

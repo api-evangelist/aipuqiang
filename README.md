@@ -64,5 +64,25 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aipuqiang is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/aipuqiang
+Aipuqiang is the transliterated name of **Shanghai APACTRON Particle Equipment Co., Ltd.**
+(上海艾普强粒子设备有限公司), a Shanghai manufacturer of proton therapy systems for cancer
+treatment. Founded in June 2011 and controlled by Shanghai Alliance Investment Co., Ltd.
+under the Shanghai SASAC, the company was the industrialization partner for China's first
+domestically developed proton therapy demonstration facility — approved by the NMPA under
+the innovative medical device pathway in September 2022 and in clinical service at the Tumor
+Proton Center of Ruijin Hospital since November 2023. Its product line covers the accelerator
+system (injector, synchrotron, high-energy beam transport) and 180-degree, 360-degree
+rotating-gantry and horizontal fixed-beam treatment rooms.
+
+## API surface
+
+**None.** Aipuqiang sells installed capital medical equipment, not software. As probed on
+2026-09-14 there is no developer portal, no API reference, no SDK, no public repository and
+no machine-readable specification of any kind — every contract and discovery path checked on
+`aptr.com.cn` and `www.aptr.com.cn` returned 404, and the English-language site at
+`https://aptr.com.cn/en/` returns HTTP 500. This profile records that measured absence; see
+`x-coverage` in `apis.yml` for the evidence.
+
+- Website: https://aptr.com.cn/
+- Contact: marketing@aptr.com.cn
+- Secondary-market listing: https://equityzen.com/company/aipuqiang
