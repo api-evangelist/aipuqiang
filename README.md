@@ -64,25 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aipuqiang is the transliterated name of **Shanghai APACTRON Particle Equipment Co., Ltd.**
-(上海艾普强粒子设备有限公司), a Shanghai manufacturer of proton therapy systems for cancer
-treatment. Founded in June 2011 and controlled by Shanghai Alliance Investment Co., Ltd.
-under the Shanghai SASAC, the company was the industrialization partner for China's first
-domestically developed proton therapy demonstration facility — approved by the NMPA under
-the innovative medical device pathway in September 2022 and in clinical service at the Tumor
-Proton Center of Ruijin Hospital since November 2023. Its product line covers the accelerator
-system (injector, synchrotron, high-energy beam transport) and 180-degree, 360-degree
-rotating-gantry and horizontal fixed-beam treatment rooms.
+Aipuqiang is the transliterated name of Shanghai APACTRON Particle Equipment Co., Ltd. (上海艾普强粒子设备有限公司), a Shanghai-based manufacturer of proton therapy systems for cancer treatment. Founded in June 2011 and controlled by Shanghai Alliance Investment Co., Ltd. under the Shanghai SASAC, the company was the industrialization partner for China's first domestically developed proton therapy demonstration facility, which received NMPA innovative medical device registration in September 2022 and entered clinical service at the Tumor Proton Center of Ruijin Hospital in November 2023. Its product line covers the accelerator system (injector, synchrotron and high-energy beam transport) together with 180-degree and 360-degree rotating-gantry and horizontal fixed-beam treatment rooms. Aipuqiang is a capital medical-equipment manufacturer: it sells installed proton therapy systems to hospitals and publishes no public API, developer portal, SDK or machine-readable specification.
 
-## API surface
+**Areas:** Company · Medical Devices · Healthcare · Proton Therapy · Radiation Oncology · Particle Accelerators · Medical Equipment · Oncology · Manufacturing · China
 
-**None.** Aipuqiang sells installed capital medical equipment, not software. As probed on
-2026-09-14 there is no developer portal, no API reference, no SDK, no public repository and
-no machine-readable specification of any kind — every contract and discovery path checked on
-`aptr.com.cn` and `www.aptr.com.cn` returned 404, and the English-language site at
-`https://aptr.com.cn/en/` returns HTTP 500. This profile records that measured absence; see
-`x-coverage` in `apis.yml` for the evidence.
+## Aipuqiang on APIs.io
 
-- Website: https://aptr.com.cn/
-- Contact: marketing@aptr.com.cn
-- Secondary-market listing: https://equityzen.com/company/aipuqiang
+Everything profiled for Aipuqiang is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aipuqiang/](https://apis.io/providers/aipuqiang/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aipuqiang Domain Security](https://apis.io/security/aipuqiang/aipuqiang-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aipuqiang Plans Pricing](https://apis.io/plans/aipuqiang/aipuqiang-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aipuqiang Rate Limits](https://apis.io/rate-limits/aipuqiang/aipuqiang-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aptr.com.cn/)
+- [Blog](https://aptr.com.cn/News)
+
+## API Evangelist rating
+
+**Kin Score 4.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 1.2 |
+| Access clarity | 0.0 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aipuqiang/](https://apis.io/providers/aipuqiang/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aipuqiang: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aipuqiang/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
